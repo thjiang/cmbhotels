@@ -1,0 +1,26 @@
+{
+  "name": "cmbhotels",
+  "version": "1.0.0",
+  "description": "300+100",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thjiang/cmbhotels.git"
+  },
+  "author": "browserify@qq.com",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thjiang/cmbhotels/issues"
+  },
+  "homepage": "https://github.com/thjiang/cmbhotels#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}
