@@ -17,5 +17,5 @@ gulp.task('less', function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('index.less', ['less']);
+    gulp.watch('styles/*.less', ['less']);
 });
