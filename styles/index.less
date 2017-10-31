@@ -86,10 +86,10 @@ body {
 .hotel-list {
     position: relative;
     width: 1000px;
-    height: 330px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 
     .hotel {
+		position: relative;
         padding: 10px;
         margin-bottom: 15px;
         background-color: #fff;
@@ -170,12 +170,12 @@ body {
             }
         }
         .price {
-            display: block;
-            position: absolute;
-            top: 275px;
-            left: 590px;
-            color: #434343;
-            font-size: 18px;
+            // display: block;
+            // position: absolute;
+            // top: 275px;
+            // left: 590px;
+            // color: #434343;
+            // font-size: 18px;
 
             s {
                 font-size: 22px;
@@ -185,18 +185,40 @@ body {
         }
 
         .show-price {
-            width: 128px;
-            height: 40px;
-            display: block;
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
-            background-color: #a68145;
-            font-size: 16px;
-            color: #fff;
-            line-height: 40px;
-            text-align: center;
+            // width: 128px;
+            // height: 40px;
+            // display: block;
+            // position: absolute;
+            // bottom: 20px;
+            // right: 20px;
+            // background-color: #a68145;
+            // font-size: 16px;
+            // color: #fff;
+            // line-height: 40px;
+            // text-align: center;
         }
+
+		.room {
+			width: 100%;
+			min-height: 100px;
+			margin: 15px auto 25px;
+			color: #666;
+			text-align: left;
+			border-collapse:collapse;
+
+			thead {
+				background: #fafafa;
+				height: 35px;
+				line-height: 35px;
+				th {
+					font-size: 16px;
+					font-weight: normal;
+					border-bottom: 1px solid #e7e7e7;
+    				padding: 5px 10px;
+				}
+			}
+
+		}
     }
 }
 
