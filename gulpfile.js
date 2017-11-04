@@ -1,9 +1,8 @@
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var less = require('gulp-less');
-var cssmin = require('gulp-minify-css');
-var path = require('path');
-var autoprefixer = require('gulp-autoprefixer');
+const gulp = require('gulp');
+const concat = require('gulp-concat');
+const less = require('gulp-less');
+const cssmin = require('gulp-minify-css');
+const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('less', function() {
 	gulp.src('styles/*.less')
@@ -16,6 +15,6 @@ gulp.task('less', function() {
         .pipe(gulp.dest('styles'));
 });
 
-gulp.task('watch', function () {
+gulp.task('watch', function() {
     gulp.watch('styles/*.less', ['less']);
 });
