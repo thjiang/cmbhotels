@@ -12,7 +12,7 @@
     "rules": {
         "indent": 0,
         "linebreak-style": 0,
-        "no-var": 1,
+        "no-var": 0,
         "no-tabs": 0,
         "no-new": 0,
         "radix": 0,
